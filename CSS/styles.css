@@ -56,6 +56,7 @@ a {
 
 .topContainer {
   background-color: #DAE5D0;
+  margin: auto;
   padding-top: 100px;
 }
 
@@ -143,6 +144,7 @@ a {
 
 .bottomContainer {
   background-color: #DAE5D0;
+  margin: auto;
   padding: 10px 0 10px
 }
 
