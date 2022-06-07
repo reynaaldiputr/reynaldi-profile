@@ -61,7 +61,21 @@ a {
   font-family: 'Sacramento', Lucida Handwriting, cursive;
   font-size: 6.25rem;
   margin: auto;
-  width: 50%
+  width: 50%;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 0;
+  }
+
+  to {
+    margin-right: 0;
+    width: 76%;
+  }
 }
 
 .ptopContainer {
