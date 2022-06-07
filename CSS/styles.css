@@ -1,11 +1,6 @@
 body {
-  margin: 0;
+  margin: auto;
   text-align: center;
-}
-
-h1 {
-  position: relative;
-  top: 100px;
 }
 
 h2 {
@@ -38,7 +33,9 @@ p {
   font-size: 1.25rem;
   margin: 0 auto;
   margin-top: 10px;
-  margin-bottom: 30px
+  margin-bottom: 30px;
+  width: 100%;
+  padding-top: 10px
 }
 
 a {
@@ -50,22 +47,21 @@ a {
   font-family: 'Gentium Plus', Garamond, serif;
   font-size: 1.5rem;
   font-weight: normal;
-  position: relative;
-  top: 100px;
+  margin-bottom: 0
 }
 
 .topContainer {
   background-color: #DAE5D0;
-  margin: auto;
-  padding-top: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .h1topContainer {
   color: #006E7F;
   font-family: 'Sacramento', Lucida Handwriting, cursive;
   font-size: 6.25rem;
-  width: 100%;
-  margin: 0 auto;
+  margin: auto;
+  width: 50%
 }
 
 .ptopContainer {
@@ -78,15 +74,12 @@ a {
 }
 
 .moonImg {
-  position: relative;
-  bottom: 250px;
-  left: 550px
+  float: right;
 }
 
 .planeImg {
-  position: relative;
-  bottom: 50px;
-  right: 600px
+  float: left;
+  margin-left: 60px;
 }
 
 .avatarImg {
@@ -139,12 +132,11 @@ a {
 }
 
 .middleContainer {
-  margin-bottom: 50px
+  margin-bottom: 50px;
 }
 
 .bottomContainer {
   background-color: #DAE5D0;
-  margin: auto;
   padding: 10px 0 10px
 }
 
